@@ -1,0 +1,25 @@
+@font-face {
+   font-family: "SAMAN";
+   src: url('SAMAN.TTF');
+}
+
+@font-face {
+   font-family: "Comfortaa-Regular";
+   src: url('Comfortaa-Regular.ttf');
+}
+
+
+body { padding-bottom: 70px; }
+
+h1 {
+   font-family: "SAMAN";
+   text-align: center;
+}
+
+h3,h6 {
+    text-align: center;
+}
+
+.logo {
+    color: white;
+}
