@@ -1,0 +1,47 @@
+
+body {
+    margin: 0;
+
+}
+
+#container {
+    min-height:100%;
+    margin:0;
+    padding:0;
+    /*background-color: red;*/
+}
+
+#enter {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 8%;
+}
+
+#frise {
+    position: fixed;
+    top: 1px;
+    left:1px;
+    width: 40%;
+}
+
+#eyes {
+    position: fixed;
+    top:  20%;
+    left: 40%;
+    width: 30%;
+}
+#eyes2 {
+    position: fixed;
+    top:  20%;
+    left: 40%;
+
+    width: 30%;
+}
+#eyes:hover {
+    opacity: 0%;
+}
+
+
+#fondImage { background-image : url(image1); width : x; height : y; }
+#fondImage:hover { background-image : url(image2); }

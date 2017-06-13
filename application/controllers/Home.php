@@ -13,13 +13,13 @@ class Home extends CI_Controller {
                 $data['username'] = $session_data['username'];
                 $this->load->view('home_view', $data);
             } else {
-                redirect('login', 'refresh');
+                redirect('home_view', 'refresh');
             }
         }
         public function logout(){
             $this->session->unset_userdata('logged_in');
             $this->session->sess_destroy();
-            redirect(site_url('login'), 'refresh');
+            redirect(site_url('home_view'), 'refresh');
         }
 
     }
