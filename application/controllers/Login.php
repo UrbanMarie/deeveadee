@@ -12,7 +12,7 @@ class Login extends CI_Controller {
              {
                  $this->load->view('home_view');
              } else {
-                redirect(base_url('index.php/home'), 'refresh');
+                redirect(base_url('index.php/home_view'), 'refresh');
              }
         }
 
@@ -27,7 +27,7 @@ class Login extends CI_Controller {
                 }
                 return true;
             } else{
-                $this->form_validation->set_message('basisdata_cek', 'Invalid username or password(xc)');
+                $this->form_validation->set_message('Invalid username or password :/'); //'basisdata_cek',
                 return false;
             }
          }

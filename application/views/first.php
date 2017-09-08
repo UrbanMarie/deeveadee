@@ -10,16 +10,19 @@
 <body>
 
 <div id="container">
+<div class="degrade">
 	<!-- Image de fond -->
 
-<img id="frise" src="<?php echo site_url('../assets/IMG/mandala/frise.png'); ?>" />
- <img id="eyes"src="<?php echo site_url('../assets/IMG/mandala/eyes_vide.png'); ?>" />
-<img id="eyes2"src="<?php echo site_url('../assets/IMG/mandala/eyes_devvedee.png'); ?>" />
+<!-- <img id="frise" src="<?php //echo site_url('../assets/IMG/png_home/mandR.png'); ?>" /> -->
+<!-- <img id="flower" src="<?php// echo site_url('../assets/IMG/png_home/flowerB.png'); ?>" /> -->
+<!-- <img id="eyes"src="<?php// echo site_url('../assets/IMG/mandala/eyes_vide.png'); ?>" /> -->
+<!-- <img id="eyes2"src="<?php// echo site_url('../assets/IMG/mandala/eyes_devvedee.png'); ?>" /> -->
 
 
-<a href="<?php echo site_url('home'); ?>"><img id="enter"src="<?php echo site_url('../assets/IMG/mandala/entrer.png'); ?>" /></a> </li>
-
+<a href="<?php echo site_url('login'); ?>"><img id="enter"src="<?php echo site_url('../assets/IMG/mandala/entrer.png'); ?>" /></a> </li>
 </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

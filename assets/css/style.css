@@ -25,3 +25,25 @@ h3,h6 {
 .logo {
     color: white;
 }
+.rating a {
+   float: right;
+   color: #aaa;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+   color: orange;
+   cursor: pointer;
+}
+
+
+.navbar-default {
+/* Couleur de fond de la barre de navigation */
+!important
+background-color: #c90b0b;
+border-color: #E7E7E7;
+}

@@ -45,7 +45,7 @@
 					  <div class="form-group">
                           <?php
                           echo form_label('Username','username');
-                          echo form_input('username','','class="form-control" id="username" placeholder="Nana Pengunna"')
+                          echo form_input('username','','class="form-control" id="username" placeholder="Username"')
                           ?>
 					  </div>
                       <div class="form-group">
